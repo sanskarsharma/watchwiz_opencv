@@ -3,7 +3,7 @@ import time
 from datetime import datetime as dt
 import pandas
 
-video = cv2.VideoCapture(1)         # 1 for using secondary camera not webcam
+video = cv2.VideoCapture(0)         # 1 for using secondary camera not webcam
 reference_frame = None
 
 time_marker_prev = 0
