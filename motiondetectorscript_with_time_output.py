@@ -51,8 +51,8 @@ while True:
     time_marker_prev = time_marker
 
     cv2.imshow("Gray frame Output", gray_frame)
-    cv2.imshow("Delta frame Output", delta_frame)
-    cv2.imshow("THRESH frame Output", thresh_frame)
+    #cv2.imshow("Delta frame Output", delta_frame)
+    #cv2.imshow("THRESH frame Output", thresh_frame)
     cv2.imshow("FINAL frame Output", frame)
 
     keypressed = cv2.waitKey(1)
